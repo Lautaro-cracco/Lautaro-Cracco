@@ -1,0 +1,51 @@
+/* Cards */
+
+.card {
+    display: flex;
+    margin-top: 0.5%;
+    border-radius: 0 0 5% 5%;
+}
+
+.card-title {
+    font-size: 250%;
+    text-align: center;
+}
+
+.card-text {
+    margin: 0.75%;
+}
+
+.btn-card {
+    width: 100%;
+}
+
+
+/* cards-bg */
+
+.bg-color-black-opacity {
+    background-color: rgba(7, 6, 8, 0.950);
+}
+
+
+/* cards-flexbox */
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-content-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* form */
+
+.titulo-form {
+    font-size: 230%;
+}
+
+.form-padding {
+    padding: 0 8% 1% 8%;
+}

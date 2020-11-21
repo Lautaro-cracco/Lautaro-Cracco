@@ -1,0 +1,91 @@
+/* Fonts */
+
+@font-face {
+    font-family: "roboto";
+    src: url(../assets/fonts/Roboto-Thin.ttf);
+}
+
+.font-roboto {
+    font-family: roboto;
+}
+
+
+/* Entradas superheroes */
+
+.back-arrow {
+    color: white;
+}
+
+.infoheroes {
+    font-family: Roboto;
+    color: white;
+}
+
+.infoheroes p {
+    font-size: 125%;
+}
+
+.infoheroes h1 {
+    font-size: 350%;
+}
+
+
+/* footer */
+
+footer p {
+    font-size: 180%;
+    font-family: Roboto;
+    text-decoration: underline black;
+}
+
+
+/* Redes  sociales */
+
+.redes-container a i {
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    margin: 0 4%;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+/* flexbox */
+
+.margin-seccion {
+    margin: 0.4% 0;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-content-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* bg-colors, bg-img, fonts colors*/
+
+.bg-img {
+    background-image: url("../assets/imgs/fondo.png");
+    background-repeat: repeat;
+}
+
+.bg-color-black-opacity {
+    background-color: rgba(7, 6, 8, 0.950);
+}
+
+.bg-color-grey {
+    background-color: rgb(204, 204, 204);
+}
+
+.font-color-white {
+    color: white;
+}
